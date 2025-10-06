@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todoapp">
+        <div class="header">
+            <h1>todos</h1>
+            <input type="text" name="newTodo" id="newTodo" placeholder="What needs to be done?">
+        </div>
+        <div class="todo-list">
+            <div id="tasks-container" class="show-done main"></div>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer">
+                <div class="todo-count"></div>
+                    <ul class="filters">
+                      <li>
+                         <a href="#/" class="selected">All</a>
+                        </li>
+                    <li>
+                        <a href="#/active">Active</a>
+                    </li>
+                    <li>
+                     <a href="#/completed">Completed</a>
+                    </li>
+            </ul>
+            <button class="clear-completed">Clear completed</button>
+        </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
