@@ -24,8 +24,9 @@ function addTask(text) {
     document.querySelector('.main') ||
     document.querySelector('.todo-list') ||
     document.body
-  const checkbox = document.createElement('input')
+  
   const div = document.createElement('div')
+  const checkbox = document.createElement('input')
   const label = document.createElement('label')
   
 
